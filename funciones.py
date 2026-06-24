@@ -106,7 +106,7 @@ def editar_producto(inventario):
                     print("Error: El precio debe ser un número entero.")
                 
             while True:
-                new_stock_str = input(f"Ingrese nuevo stock (${prod["stock"]}): ")
+                new_stock_str = input(f"Ingrese nuevo stock ({prod["stock"]}): ")
                 if new_stock_str == "":
                     break
                 try: 
